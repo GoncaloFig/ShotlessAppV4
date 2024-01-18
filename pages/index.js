@@ -25,6 +25,11 @@ function Home() {
         <link rel="icon" href="/go.ico" />
 
         <link rel="canonical" href="https://shotlessapp.com" />
+
+
+        {/* GOOGLE ADSENSE CODE */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1925185508165113" crossorigin="anonymous"></script>
+        
       </Head>
       <main>
         <App />
