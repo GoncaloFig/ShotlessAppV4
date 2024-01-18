@@ -21,7 +21,8 @@ function Home() {
         <noscript>Choose a random person to pay the bill, with Shotless game</noscript>
         <noscript>Who will pay the bill</noscript>
 
-        <link rel="icon" href="/shotlessIcon.ico" />
+        {/* <link rel="icon" href="/shotlessIcon.ico" /> */}
+        <link rel="icon" href="/go.ico" />
 
         <link rel="canonical" href="https://shotlessapp.com" />
       </Head>
