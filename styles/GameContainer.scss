@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+
+//For laptops and bigger
+@media (min-width: 1170px) {
+    .gameContainer{
+        // position: relative;
+        // display: grid;
+        // grid-row-gap: 0px;
+        background: #E3F1FB;
+        height: 34vh;
+        width: 100vw;
+        
+    }
+
+    .drawBtn{
+        width: 8vw;
+        height: 8vw;
+        border-radius: 50%;
+        background: #3D99FE;
+        border: 5px solid #F5F5F5;
+        // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        font-size: 40px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .shotlessTitle{
+        // position: absolute;
+        top: 25px;
+        font-family: 'Titan One', cursive;
+        font-weight: 800;
+        font-size: 48px;
+        // text-align: center;
+        // letter-spacing: -0.5px;
+        text-transform: uppercase;
+        color: #202124;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        letter-spacing: 2px;
+        //margin-top: 6%;
+        // left:0;
+        // right:0;
+        // margin-left:auto;
+        // margin-right:auto;
+    }
+
+    .disabledGoButton{
+        background: #c1c1c1 !important;
+    }
+}
+
+@media (max-width: 1170px) {
+    .gameContainer{
+        // position: relative;
+        // display: grid;
+        // grid-row-gap: 0px;
+        background: #E3F1FB;
+        height: 34vh;
+        width: 100vw;
+    }
+
+    .drawBtn{
+        width: 35vw;
+        height: 35vw;
+        border-radius: 50%;
+        background: #3D99FE;
+        border: 5px solid #F5F5F5;
+        // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+        font-size: 40px;
+        color: white;
+        font-weight: 600;
+        cursor: pointer;
+    }
+
+    .shotlessTitle{
+        // position: absolute;
+        top: 25px;
+        font-family: 'Titan One', cursive;
+        font-weight: 800;
+        font-size: 48px;
+        // text-align: center;
+        // letter-spacing: -0.5px;
+        text-transform: uppercase;
+        color: #202124;
+        text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+        letter-spacing: 2px;
+        //margin-top: 6%;
+        // left:0;
+        // right:0;
+        // margin-left:auto;
+        // margin-right:auto;
+    }
+
+    .disabledGoButton{
+        background: #c1c1c1 !important;
+    }
+}

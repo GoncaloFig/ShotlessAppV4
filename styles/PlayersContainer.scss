@@ -1,0 +1,103 @@
+
+.playersListContainer{
+    background-color: transparent;
+    // overflow: scroll;
+    justify-content: center;
+    padding: 25px 10px 15px 10px;
+
+    display: grid;
+    grid-template-columns: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100%;
+}
+
+.addPlayerContainer{
+    
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addPlayerBtn{
+    background: #3D99FE;;
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 341px;
+    height: 72px;
+    font-weight: 653;
+    font-size: 48px;
+    color: #FFFFFF;
+    font-variation-settings: 'slnt' 0;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.noPlayersDiv{
+    border: 3px solid #FFFFFF;
+    border-radius: 10px;
+    /* width: 332px; */
+    /* height: 70px; */
+    /* font-weight: 653; */
+    font-size: 25px;
+    color: #FFFFFF;
+    font-variation-settings: 'slnt' 0;
+    margin: 0 0 30px 0;
+    color: #454545;;
+}
+
+@media (min-width: 1170px) {
+    .playersContainer { 
+        height: 66vh;
+        width: 20vw;
+        background: #FFFFFF;
+        border-radius: 23px 23px 0px 0px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 80% 20%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .playersListOverflow{
+        background-color: transparent;
+        // overflow-y: scroll;
+        // grid-auto-rows: 25%;
+        // /* justify-content: center; */
+        // display: flex;
+        // flex-direction: column;
+        max-height: 100vh;
+        overflow-y: auto;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 1170px) {
+    .playersContainer { 
+        height: 66vh;
+        width: 100vw;
+        background: #FFFFFF;
+        border-radius: 23px 23px 0px 0px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 80% 20%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .playersListOverflow{
+        background-color: transparent;
+        // overflow-y: scroll;
+        // grid-auto-rows: 25%;
+        // /* justify-content: center; */
+        // display: flex;
+        // flex-direction: column;
+        max-height: 100vh;
+        overflow-y: auto;
+        height: 50vh;
+    }
+}
