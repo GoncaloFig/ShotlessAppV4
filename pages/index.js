@@ -28,7 +28,7 @@ function Home() {
 
 
         {/* GOOGLE ADSENSE CODE */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4294726482603280" crossOrigin="anonymous"></script>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4294726482603280" crossorigin="anonymous"></script>
 
       </Head>
       <main>
