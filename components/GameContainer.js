@@ -11,7 +11,6 @@ const GameContainer = () => {
     return (
         <div className="gameContainer">
             <h1 className="shotlessTitle">Shotless</h1>
-            <h1 className="hidden">Shotless app,Shotless game, pick random person,random name generator</h1>
             <h2 className='hidden'>Generate a random person to pay the bill</h2>
             <GameBtnContainer goBtnVisible={goBtnVisible} setGoBtnVisible={setGoBtnVisible}/>
         </div>
