@@ -25,7 +25,7 @@
 
     .playersEditListOverflow{
         background-color: transparent;
-        overflow-y: scroll;
+        overflow-y: auto;
         padding: 0 14px;
         height: 30vh;
     }
@@ -188,7 +188,7 @@
 
     .playersEditListOverflow{
         background-color: transparent;
-        overflow: scroll;
+        overflow: auto;
         padding: 0 14px;
         height: 30vh;
     }
