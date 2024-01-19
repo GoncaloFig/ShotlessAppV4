@@ -20,7 +20,6 @@ const GameContainer = () => {
 
             {/* SEO PERFORM */}
             <div className='hidden' style={{display: 'none'}}>
-            <h1 >Shotless</h1>
             <h2 >Who will pay the bill</h2>
             <h3 >Pick a random person to pay the bill</h3>
             <h4 >Choose a random person to pay the bill, with Shotless game</h4>
