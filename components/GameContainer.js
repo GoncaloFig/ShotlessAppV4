@@ -4,6 +4,11 @@ import React from 'react'
 import { useState } from 'react'
 import GameBtnContainer from './GameBtnContainer'
 
+export const metadata = {
+    title: 'Shotless',
+    description: 'Generate a random person to pay the bill',
+}
+
 const GameContainer = () => {
 
     const [goBtnVisible, setGoBtnVisible] = useState(true);
