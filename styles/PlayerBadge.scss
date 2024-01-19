@@ -22,3 +22,11 @@
     background-position: center center;
 
 }
+
+@media screen and (max-width: 340px) {
+
+    .playerBadge{
+        width: 95vw;
+    }
+    
+  }
