@@ -4,6 +4,18 @@
     display: none;
 }
 
+.drawBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameBtnContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 //For laptops and bigger
 @media (min-width: 1170px) {
     .gameContainer{

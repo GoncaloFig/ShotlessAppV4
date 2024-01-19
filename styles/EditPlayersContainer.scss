@@ -325,3 +325,14 @@
         cursor: pointer;
     }
 }
+
+@media screen and (max-width: 340px) {
+.playersEditListContainer{
+    padding: 25px 0px 15px
+}
+
+.playersEditContainer{
+    width: 100vw;
+}
+
+}
