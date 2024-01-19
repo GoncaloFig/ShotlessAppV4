@@ -41,6 +41,10 @@
 
   $totalLen: $num1Len + $num2Len + $num3Len + $numJoin1-2 + $numJoin2-3 + $numJoin3-0;
 
+  .fadeInDemo {
+    opacity: 1;
+  }
+
   .demo {
     position: absolute;
     left: 50%;
@@ -51,7 +55,8 @@
     padding: $pad;
     border-radius: 20px;
     transform: translateX(-50%);
-    
+    transition: opacity 0.4s ease-in;
+
     // margin: 10% auto; /* Adjust the top margin percentage based on your design */
     // width: 60%; /* Adjust the width percentage based on your design */
     // height: 40vh; /* Adjust the height based on your design */

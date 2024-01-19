@@ -8,6 +8,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: opacity 0.4s ease-out;
+}
+
+.fadeOutDrawBtn {
+    opacity: 0;
 }
 
 .gameBtnContainer{
