@@ -89,10 +89,10 @@ const EditPlayersContainer = (props) => {
                     {handleLoadCurrentPlayers}
                 </div>
             </div>
-            
+
             <div className="playersNewInputContainer">
-                <h3 className="newPlayerTitle">New Player</h3>
-                <input type="text" maxlength="25" value={newPlayer.name || ''} onChange={handleInputNameChange}/>
+                {/* <h3 className="newPlayerTitle">New Player</h3> */}
+                <input type="text" maxlength="25" placeholder="New Player" value={newPlayer.name || ''} onChange={handleInputNameChange}/>
                 <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>Add</button>
             </div>
         </div>
