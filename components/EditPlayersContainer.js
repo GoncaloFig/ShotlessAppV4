@@ -88,12 +88,12 @@ const EditPlayersContainer = (props) => {
                 <div className="playersEditListOverflow">
                     {handleLoadCurrentPlayers}
                 </div>
+            </div>
+            
+            <div className="playersNewInputContainer">
                 <h3 className="newPlayerTitle">New Player</h3>
-                    <div className="playersNewInputContainer">
-                        <input type="text" maxlength="25" value={newPlayer.name || ''} onChange={handleInputNameChange}/>
-                        <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>Add</button>
-                    </div>
-                    <br/>
+                <input type="text" maxlength="25" value={newPlayer.name || ''} onChange={handleInputNameChange}/>
+                <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>Add</button>
             </div>
         </div>
     )

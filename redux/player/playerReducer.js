@@ -7,7 +7,12 @@ const initialState = {
     players : [
         {
             id: 1,
-            name: "Gonyfig",
+            name: "Player 1",
+            isEditing : false
+        },
+        {
+            id: 2,
+            name: "Player 2",
             isEditing : false
         }
     ]
