@@ -8,7 +8,7 @@
         border-radius: 23px 23px 0px 0px;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 12% 45% 43%;
+        grid-template-rows: 14% 45% 41%;
         //margin-top: 1%;
     }
 
@@ -88,6 +88,12 @@
             border-radius: 10px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
+            //height: 14px;
+        }
+
+        svg{
+            height: 33px;
+            width: 33px;
         }
     }
 
@@ -105,6 +111,7 @@
             border-radius: 10px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
+            text-align: center;
         }
     }
 
@@ -255,6 +262,7 @@
             border-radius: 10px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
+            height: 14px;
         }
     }
 
@@ -276,6 +284,8 @@
             border-radius: 10px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
+            align-items: center;
+            text-align: center;
         }
     }
 
