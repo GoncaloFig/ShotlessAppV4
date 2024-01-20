@@ -1,7 +1,7 @@
 import React from 'react'
 import PlayerBadge from './PlayerBadge';
 import { useSelector } from 'react-redux';
-// import styles from '../styles/PlayersContainer.module.scss'
+
 
 const PlayersContainer = ({handleOpenEditPlayers}) => {
 
