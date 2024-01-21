@@ -1,19 +1,4 @@
 
-.playersListContainer{
-    background-color: transparent;
-    // overflow: scroll;
-    justify-content: center;
-    padding: 25px 10px 15px 10px;
-
-    display: grid;
-    grid-template-columns: auto;
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: 100%;
-    overflow-y: hidden;
-    height: 40vh;
-    width: 50vh;
-}
 
 .addPlayerContainer{
     
@@ -81,6 +66,24 @@
         overflow-y: auto;
         //height: 50vh;
     }
+
+    .playersListContainer{
+        background-color: transparent;
+        // overflow: scroll;
+        justify-content: center;
+        padding: 25px 10px 15px 10px;
+    
+        display: grid;
+        grid-template-columns: auto;
+        // display: grid;
+        // grid-template-columns: auto;
+        // grid-template-rows: 100%;
+        overflow-y: hidden;
+        height: 40vh;
+        width: 50vh;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 @media (max-width: 1170px) {
@@ -94,6 +97,8 @@
         grid-template-rows: 80% 20%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
+        display: flex;
+        justify-content: center;
     }
 
     .playersListOverflow{
@@ -106,6 +111,24 @@
         height: 40vh;
         overflow-y: auto;
         //height: 50vh;
+    }
+
+    .playersListContainer{
+        background-color: transparent;
+        // overflow: scroll;
+        justify-content: center;
+        padding: 25px 10px 15px 10px;
+    
+        display: grid;
+        grid-template-columns: auto;
+        // display: grid;
+        // grid-template-columns: auto;
+        // grid-template-rows: 100%;
+        overflow-y: hidden;
+        height: 40vh;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
     }
 }
 
