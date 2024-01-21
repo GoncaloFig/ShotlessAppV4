@@ -5,6 +5,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   /* height: 100vh;
   overflow-y: hidden; */
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  height: -webkit-fill-available;
   overflow: auto;
 }
