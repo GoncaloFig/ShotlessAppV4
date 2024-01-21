@@ -2,25 +2,25 @@
 
 .addPlayerContainer{
     
-    // background-color: transparent;
-    // // display: flex;
-    // // align-items: center;
-    // // justify-content: center;
-    // position: fixed;
-    // bottom: 20px;
-    // left: 50%;
-    // transform: translateX(-50%);
-    // height: 15%;
-    // display: flex;
-    // justify-content: center;
-    // align-items: end;
-    // padding-top: 15px;
     background-color: transparent;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 15%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 100vw;
-    margin-bottom: 15px;
+    align-items: end;
+    padding-top: 15px;
+    // background-color: transparent;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // width: 100vw;
+    // margin-bottom: 15px;
 }
 
 .addPlayerBtn{
@@ -102,22 +102,22 @@
 
 @media (max-width: 1170px) {
     .playersContainer { 
-        // height: 66vh;
-        // width: 100vw;
-        // background: #FFFFFF;
-        // border-radius: 23px 23px 0px 0px;
-        // display: grid;
-        // grid-template-columns: auto;
-        // grid-template-rows: 80% 20%;
-        // border-top-left-radius: 10px;
-        // border-top-right-radius: 10px;
-        // display: flex;
-        // justify-content: center;
         height: 66vh;
+        width: 100vw;
         background: #FFFFFF;
+        border-radius: 23px 23px 0px 0px;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 80% 20%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        display: flex;
+        justify-content: center;
+        // height: 66vh;
+        // background: #FFFFFF;
+        // display: grid;
+        // grid-template-columns: auto;
+        // grid-template-rows: 80% 20%;
     }
 
     .playersListOverflow{
