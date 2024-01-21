@@ -1,6 +1,7 @@
 import React from 'react'
 import PlayerBadge from './PlayerBadge';
 import { useSelector } from 'react-redux';
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
 
 const PlayersContainer = ({handleOpenEditPlayers}) => {
@@ -27,8 +28,8 @@ const PlayersContainer = ({handleOpenEditPlayers}) => {
                 </div>
             </div>
             <div className="addPlayerContainer">
-                {/* <button onClick={function(){ openEditPlayers()}} className="addPlayerBtn}><FaPlus/></button> */}
-                <button onClick={handleOpenEditPlayers} className="addPlayerBtn">Add</button>
+                {/* <button onClick={handleOpenEditPlayers} className="addPlayerBtn">Add</button> */}
+                <BsFillPlusCircleFill className="addPlayerIcon" onClick={handleOpenEditPlayers} />
             </div>
         </div>
     )
