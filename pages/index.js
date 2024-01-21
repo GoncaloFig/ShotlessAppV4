@@ -17,6 +17,8 @@ function Home() {
         <meta name="keywords" content="Shotless app, random bill payer, pick random person, random name generator, bill splitting game, random selection game, choose a person randomly"/>
         <meta name="description" content="Shotless Game - Randomly Choose a Person to the bill or assigns random tasks"/>
 
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1"/>
+
         <noscript>Make decisions fun with Shotless Game! Let our Shotless app choose who pays the bill or assigns random tasks..</noscript>
         <noscript>Choose a random person to pay the bill, with Shotless game</noscript>
         <noscript>Who will pay the bill</noscript>
