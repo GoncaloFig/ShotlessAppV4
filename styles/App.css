@@ -8,6 +8,7 @@
     /* height: 100vh; */
     /* position: fixed;
     bottom: 0px; */
+    min-height: 100vh;
   }
   
   .App-logo {
