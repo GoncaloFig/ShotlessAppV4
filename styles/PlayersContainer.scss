@@ -12,6 +12,7 @@
     grid-template-rows: 100%;
     overflow-y: hidden;
     height: 40vh;
+    width: 50vh;
 }
 
 .addPlayerContainer{
@@ -64,7 +65,7 @@
 @media (min-width: 1170px) {
     .playersContainer { 
         height: 66vh;
-        width: 20vw;
+        //width: 20vw;
         background: #FFFFFF;
         border-radius: 23px 23px 0px 0px;
         display: grid;

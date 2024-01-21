@@ -176,12 +176,11 @@
 @media (max-width: 1170px) {
 
     .playersEditContainer { 
-        height: 62vh;
+        height: 66vh;
         width: 93vw;
         background: #FFFFFF;
         border-radius: 23px 23px 0px 0px;
         display: grid;
-        grid-template-columns: auto;
         grid-template-columns: auto;
         grid-template-rows: 12% 45% 43%;
     }
@@ -352,7 +351,7 @@
 
 .playersEditContainer{
     width: 100vw;
-    height: 62vh;
+    height: 66vh;
 }
 
 }
