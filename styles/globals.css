@@ -3,8 +3,10 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  height: 96vh;
+  /* height: 96vh; */
   /*overflow-y: hidden; */
   /* min-height: 100vh; */
-  overflow: auto;
+  /* overflow: auto; */
+  overflow: hidden;
+  height: 100%;
 }
