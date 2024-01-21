@@ -1,4 +1,35 @@
 
+.playersListContainer{
+    background-color: transparent;
+    // overflow: scroll;
+    justify-content: center;
+    padding: 25px 10px 15px 10px;
+
+    display: grid;
+    grid-template-columns: auto;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 100%;
+    overflow-y: hidden;
+    height: 40vh;
+}
+
+.addPlayerContainer{
+    
+    background-color: transparent;
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding-top: 15px;
+}
 
 .addPlayerBtn{
     background: #3D99FE;;
@@ -49,38 +80,6 @@
         overflow-y: auto;
         //height: 50vh;
     }
-
-    .addPlayerContainer{
-    
-        background-color: transparent;
-        // display: flex;
-        // align-items: center;
-        // justify-content: center;
-        position: fixed;
-        bottom: 20px;
-        left: 50%;
-        transform: translateX(-50%);
-        height: 15%;
-        display: flex;
-        justify-content: center;
-        align-items: end;
-        padding-top: 15px;
-    }
-
-    .playersListContainer{
-        background-color: transparent;
-        // overflow: scroll;
-        justify-content: center;
-        padding: 25px 10px 15px 10px;
-    
-        display: grid;
-        grid-template-columns: auto;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 100%;
-        overflow-y: hidden;
-        height: 40vh;
-    }
 }
 
 @media (max-width: 1170px) {
@@ -94,8 +93,6 @@
         grid-template-rows: 80% 20%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
-        //ADD BEFORE GONY
-        position: relative;
     }
 
     .playersListOverflow{
@@ -108,26 +105,6 @@
         height: 40vh;
         overflow-y: auto;
         //height: 50vh;
-    }
-
-    //ADDED BEFORE GONY
-    .addPlayerContainer{
-        justify-content: center;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 100%;
-        overflow-y: hidden;
-        position: sticky;
-        bottom: 0;
-    }
-
-    .playersListContainer{
-        width: 100vw;
-        padding: 25px 0px 15px 0px;
-        height: 40vh;
-
-        //ADDED BEFORE GONY
-        position: relative;
     }
 }
 
@@ -144,23 +121,9 @@
         width: 100vw;
         padding: 25px 0px 15px 0px;
         height: 40vh;
-
-        //ADDED BEFORE GONY
-        position: relative;
     }
 
     .addPlayerBtn {
         width: 95vw;
-    }
-
-    //ADDED BEFORE GONY
-    .addPlayerContainer{
-        justify-content: center;
-        display: grid;
-        grid-template-columns: auto;
-        grid-template-rows: 100%;
-        overflow-y: hidden;
-        position: sticky;
-        bottom: 0;
     }
   }
