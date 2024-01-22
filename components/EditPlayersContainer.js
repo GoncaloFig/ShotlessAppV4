@@ -4,6 +4,7 @@ import {addPlayer, removePlayer, changePlayerName, changePlayerToEdit} from '../
 import { v4 as uuidv4 } from 'uuid'
 import { ImCross, ImArrowLeft2, ImPencil2, ImFloppyDisk  } from "react-icons/im";
 import { FaCheck } from "react-icons/fa";
+import { BsFillPlusCircleFill } from "react-icons/bs";
 
 const EditPlayersContainer = (props) => {
 
@@ -95,7 +96,9 @@ const EditPlayersContainer = (props) => {
             <div className="playersNewInputContainer">
                 {/* <h3 className="newPlayerTitle">New Player</h3> */}
                 <input type="text" maxlength="25" placeholder="New Player" value={newPlayer.name || ''} onChange={handleInputNameChange}/>
-                <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>Add</button>
+                {/* <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>Add</button> */}
+                <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>+</button>
+                {/* <BsFillPlusCircleFill className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}/> */}
             </div>
         </div>
     )
