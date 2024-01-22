@@ -24,16 +24,19 @@
 //For laptops and bigger
 @media (min-width: 1170px) {
     .gameContainer{
-        // position: relative;
+        // background: #E3F1FB;
+        // height: 34vh;
+        // width: 100vw;
         // display: grid;
-        // grid-row-gap: 0px;
+        // grid-template-columns: auto;
+        // grid-template-rows: 30% 70%;
+        
         background: #E3F1FB;
-        height: 34vh;
+        height: 30vh;
         width: 100vw;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 30% 70%;
-        
+        grid-template-rows: 35% 65%;
     }
 
     .drawBtn{
@@ -68,15 +71,19 @@
 
 @media (max-width: 1170px) {
     .gameContainer{
-        // position: relative;
+        // background: #E3F1FB;
+        // height: 34vh;
+        // width: 100vw;
         // display: grid;
-        // grid-row-gap: 0px;
+        // grid-template-columns: auto;
+        // grid-template-rows: 30% 70%;
+
         background: #E3F1FB;
-        height: 34vh;
+        height: 30vh;
         width: 100vw;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 30% 70%;
+        grid-template-rows: 35% 65%;
     }
 
     .drawBtn{
