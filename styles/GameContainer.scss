@@ -21,6 +21,12 @@
     justify-content: center;
 }
 
+.shotlessTitleImg{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 //For laptops and bigger
 @media (min-width: 1170px) {
     .gameContainer{
