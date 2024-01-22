@@ -3,7 +3,9 @@ import React from 'react'
 // import GameBtnContainer from './GameBtnContainer'
 import { useState } from 'react'
 import GameBtnContainer from './GameBtnContainer'
+import titleImage from '../images/shotless.png'
 import Image from 'next/image'
+
 
 export const metadata = {
     title: 'Shotless',
@@ -20,8 +22,8 @@ const GameContainer = () => {
             {/* <h1 className="shotlessTitle">Shotless</h1> */}
             {/* <div className='shotlessTitleImg'/> */}
             <div className='shotlessTitleImg'>
-                {/* <img src='/_next/static/media/shotless.bc208cbe.png'/> */}
-                <img src='../images/shotless.png'/>
+                {/* <img src='/_next/static/media/shotless.bc208cbe.png' alt="Shotless Logo"/> */}
+                <Image src={titleImage} alt='Home Page' width={350} height={60}/>
             </div>
             <GameBtnContainer goBtnVisible={goBtnVisible} setGoBtnVisible={setGoBtnVisible}/>
         </div>
