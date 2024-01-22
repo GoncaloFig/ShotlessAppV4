@@ -13,8 +13,8 @@
         border-radius: 23px 23px 0px 0px;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 12% 50% 38%;
-        //margin-top: 1%;
+        //grid-template-rows: 12% 50% 38%;
+        grid-template-rows: 12% 62% 26%;
     }
 
     .playersEditListContainer{
@@ -32,7 +32,8 @@
         background-color: transparent;
         overflow-y: auto;
         padding: 0 14px;
-        height: 30vh;
+        //height: 30vh;
+        -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
     }
 
     .editPlayerContainer{
@@ -187,7 +188,8 @@
         border-radius: 23px 23px 0px 0px;
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 12% 45% 43%;
+        //grid-template-rows: 12% 45% 43%;
+        grid-template-rows: 12% 62% 26%;
     }
 
     .playersEditListContainer{
@@ -203,7 +205,8 @@
         background-color: transparent;
         overflow: auto;
         padding: 0 14px;
-        height: 30vh;
+        //height: 30vh;
+        -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
     }
 
     .editPlayerContainer{
@@ -357,6 +360,7 @@
 .playersEditContainer{
     width: 100vw;
     height: 66vh;
+    grid-template-rows: 12% 62% 26%;
 }
 
 }
