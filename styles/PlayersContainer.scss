@@ -13,15 +13,15 @@
     // align-items: end;
     // padding-top: 15px;
 
-    background-color: transparent;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    //padding-bottom: 15px;
     position: fixed;
     left: 0;
     right: 0;
-    bottom: 15px;
+    bottom: 0;
+    padding-bottom: 25px;
 
 }
 
