@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import {addPlayer, removePlayer, changePlayerName, changePlayerToEdit} from '../redux'
 import { v4 as uuidv4 } from 'uuid'
 import { ImCross, ImArrowLeft2, ImPencil2, ImFloppyDisk  } from "react-icons/im";
+import { FaCheck } from "react-icons/fa";
 
 const EditPlayersContainer = (props) => {
 
@@ -60,9 +61,10 @@ const EditPlayersContainer = (props) => {
                 <input type="text" key={player.id} defaultValue={player.name} onChange={(e) => setPlayerNameChanged(e.target.value)} disabled={!player.isEditing}/>
                 {/* {!isEditingPlayer && player.id !== editingPlayerId ?  */}
                 {!player.isEditing ? 
-                    <ImPencil2 disabled className="editPlayerIcon" data-key={player.id} onClick={() => {handleClickEditPlayer(player.id, player.name)}}/>
+                    <div className='editPlayerIconContainer'><ImPencil2 disabled className="editPlayerIcon" data-key={player.id} onClick={() => {handleClickEditPlayer(player.id, player.name)}}/></div>
                     :
-                    <ImFloppyDisk className="saveEditPlayerIcon" data-key={player.id} onClick={() => {handleChangeCurrentPlayerName(player.id)}}/>
+                    // <ImFloppyDisk className="saveEditPlayerIcon" data-key={player.id} onClick={() => {handleChangeCurrentPlayerName(player.id)}}/>
+                    <FaCheck className="saveEditPlayerIcon" data-key={player.id} onClick={() => {handleChangeCurrentPlayerName(player.id)}}/>
                 }
                 <ImCross className="deletePlayerIcon" data-key={player.id} onClick={() => handleRemovePlayer(player.id)}/>
             </div>

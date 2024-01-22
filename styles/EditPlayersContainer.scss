@@ -1,6 +1,7 @@
 
 .editPlayersTitle{
     text-transform: uppercase;
+    font-size: 25px;
 }
 
 
@@ -78,6 +79,7 @@
     .editPlayersTitle{
         display: flex;
         justify-content: center;
+        font-size: 25px;
     }
 
     .playersInputContainer{
@@ -89,9 +91,10 @@
         margin: 0px 0px 13px 0px;
 
         input{
-            width: 90%;
-            padding: 11px 7px;
-            border-radius: 10px;
+            width: 85%;
+            // padding: 11px 7px;
+            padding: 11px;
+            border-radius: 50px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
             //height: 14px;
@@ -114,7 +117,7 @@
         input{
             width: 90%;
             padding: 11px 7px;
-            border-radius: 10px;
+            border-radius: 50px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
             text-align: center;
@@ -125,15 +128,26 @@
         font-size: x-large;
         padding: 6px;
         border: 2px solid;
-        border-radius: 10px;
+        border-radius: 50px;
         color: #bb0a0a8c;
         cursor: pointer;
+    }
+
+    .editPlayerIconContainer{
+        border: 2px solid;
+        border-radius: 58px;
+        color: #3d99fe;
+        width: 46px;
+        height: 46px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .editPlayerIcon{
         font-size: x-large;
         padding: 6px;
-        border: 2px solid;
+        //border: 2px solid;
         border-radius: 10px;
         color: #3d99fe;
         cursor: pointer;
@@ -143,7 +157,7 @@
         font-size: x-large;
         padding: 6px;
         border: 2px solid;
-        border-radius: 10px;
+        border-radius: 50px;
         color: #127522;
         cursor: pointer;
     }
@@ -163,7 +177,7 @@
         background: #3D99FE;
         border: 3px solid #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
+        border-radius: 50px;
         width: 225px;
         height: 52px;
         font-weight: 600;
@@ -253,6 +267,7 @@
         display: flex;
         justify-content: center;
         margin: 0 auto;
+        font-size: 25px;
     }
 
     .playersInputContainer{
@@ -264,9 +279,10 @@
         margin: 0px 0px 13px 0px;
 
         input{
-            width: 90%;
-            padding: 11px 7px;
-            border-radius: 10px;
+            width: 85%;
+            // padding: 11px 7px;
+            padding: 11px;
+            border-radius: 50px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
             height: 14px;
@@ -288,7 +304,7 @@
         input{
             width: 90%;
             padding: 11px 7px;
-            border-radius: 10px;
+            border-radius: 50px;
             border: 2px solid #c4c4c5;
             font-size: 20px;
             align-items: center;
@@ -300,14 +316,25 @@
         font-size: x-large;
         padding: 6px;
         border: 2px solid;
-        border-radius: 10px;
+        border-radius: 50px;
         color: #bb0a0a8c;
+    }
+
+    .editPlayerIconContainer{
+        border: 2px solid;
+        border-radius: 58px;
+        color: #3d99fe;
+        width: 36px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .editPlayerIcon{
         font-size: x-large;
         padding: 6px;
-        border: 2px solid;
+        //border: 2px solid;
         border-radius: 10px;
         color: #3d99fe;
         cursor: pointer;
@@ -317,7 +344,7 @@
         font-size: x-large;
         padding: 6px;
         border: 2px solid;
-        border-radius: 10px;
+        border-radius: 50px;
         color: #127522;
         cursor: pointer;
     }
@@ -335,7 +362,7 @@
         background: #3D99FE;
         border: 3px solid #FFFFFF;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-        border-radius: 10px;
+        border-radius: 50px;
         width: 225px;
         height: 52px;
         font-weight: 600;
