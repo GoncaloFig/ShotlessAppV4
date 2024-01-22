@@ -30,6 +30,9 @@
         background: #E3F1FB;
         height: 34vh;
         width: 100vw;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 30% 70%;
         
     }
 
@@ -71,6 +74,9 @@
         background: #E3F1FB;
         height: 34vh;
         width: 100vw;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 30% 70%;
     }
 
     .drawBtn{
