@@ -31,7 +31,7 @@
 
     .playersEditListOverflow{
         background-color: transparent;
-        overflow-y: auto;
+        overflow-y: scroll;
         padding: 0 14px;
         //height: 30vh;
         // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
@@ -216,7 +216,7 @@
 
     .playersEditListOverflow{
         background-color: transparent;
-        overflow: auto;
+        overflow-y: scroll;
         padding: 0 14px;
         //height: 30vh;
         // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
@@ -430,7 +430,7 @@
 
 .playersEditListOverflow{
     background-color: transparent;
-    overflow: auto;
+    overflow-y: scroll;
     padding: 0 14px;
 }
 
