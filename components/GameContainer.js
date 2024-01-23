@@ -4,7 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import GameBtnContainer from './GameBtnContainer'
 import titleImage from '../images/shotless.png'
-import titleImageSsr from '../public/shotless.png'
+import titleImageSsr from '/public/shotless.png'
 import Image from 'next/image'
 
 
@@ -23,13 +23,14 @@ const GameContainer = () => {
             {/* <h1 className="shotlessTitle">Shotless</h1> */}
             {/* <div className='shotlessTitleImg'/> */}
             <div className='shotlessTitleImg'>
-                {/* <img src='/_next/static/media/shotless.bc208cbe.png' alt="Shotless Logo"/> */}
-                <Image src={titleImageSsr} alt='Home Page' width={350} height={60}/>
+                <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="lazy"/>
+                {/* <Image src="/static/media/shotless.png" alt='Home Page' width={350} height={60}/> */}
             </div>
             <GameBtnContainer goBtnVisible={goBtnVisible} setGoBtnVisible={setGoBtnVisible}/>
         </div>
         {/* SEO PERFORM */}
         <div className='hidden' style={{display: 'none'}}>
+        <h1 className="shotlessTitle">Shotless</h1>
         <h2 >Who will pay the bill</h2>
         <h3 >Pick a random person to pay the bill</h3>
         <h4 >Choose a random person to pay the bill, with Shotless game</h4>
