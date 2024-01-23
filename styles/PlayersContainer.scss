@@ -84,7 +84,7 @@
         height: 90%;
         overflow-y: scroll;
         //height: 50vh;
-        // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
+        -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
     }
 
     .playersListContainer{
@@ -128,15 +128,9 @@
 
     .playersListOverflow{
         background-color: transparent;
-        // overflow-y: scroll;
-        // grid-auto-rows: 25%;
-        // /* justify-content: center; */
-        // display: flex;
-        // flex-direction: column;
-        //height: 40vh;
         overflow-y: scroll;
         height: 90%;
-        // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
+        -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
     }
 
     .playersListContainer{
@@ -165,7 +159,7 @@
         overflow-y: scroll;
         height: 90%;
         max-width: 100vw;
-        // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
+        -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
     }
 
     .playersListContainer{
