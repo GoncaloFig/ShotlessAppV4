@@ -97,8 +97,9 @@ const EditPlayersContainer = (props) => {
                 {/* <h3 className="newPlayerTitle">New Player</h3> */}
                 <input type="text" maxlength="25" placeholder="New Player" value={newPlayer.name || ''} onChange={handleInputNameChange}/>
                 {/* <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>Add</button> */}
-                <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>+</button>
-                {/* <BsFillPlusCircleFill className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}/> */}
+
+                {/* <button className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}>+</button> */}
+                <BsFillPlusCircleFill className={`${playerNameInputEnable ? "savePlayerBtn" : "savePlayerBtn disabledButton"}`} onClick={handleAddPlayer}/>
             </div>
         </div>
     )
