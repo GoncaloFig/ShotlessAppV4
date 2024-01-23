@@ -13,7 +13,7 @@ export const metadata = {
     description: 'Generate a random person to pay the bill',
 }
 
-const GameContainer = ({ shotlessImageUrl }) => {
+const GameContainer = () => {
 
     const [goBtnVisible, setGoBtnVisible] = useState(true);
 
@@ -23,8 +23,7 @@ const GameContainer = ({ shotlessImageUrl }) => {
             {/* <h1 className="shotlessTitle">Shotless</h1> */}
             {/* <div className='shotlessTitleImg'/> */}
             <div className='shotlessTitleImg'>
-                <Image src={shotlessImageUrl} alt='Home Page' width={350} height={60} loading="lazy"/>
-                {/* <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="lazy"/> */}
+                <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="lazy" priority/>
                 {/* <Image src="/static/media/shotless.png" alt='Home Page' width={350} height={60}/> */}
             </div>
             <GameBtnContainer goBtnVisible={goBtnVisible} setGoBtnVisible={setGoBtnVisible}/>
@@ -40,16 +39,6 @@ const GameContainer = ({ shotlessImageUrl }) => {
         </div>
         </>
     )
-}
-
-export async function getServerSideProps() {
-    const shotlessImageUrl = '/images/shotless.png';
-  
-    return {
-        props: {
-            shotlessImageUrl,
-        },
-    };
 }
 
 export default GameContainer
