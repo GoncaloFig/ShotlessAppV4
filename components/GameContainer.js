@@ -31,7 +31,6 @@ const GameContainer = () => {
                 width={350} 
                 height={60} 
                 sizes="350px"
-                loading="eager" 
                 priority={true}/>
                 {/* <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="eager" priority/> */}
             </div>
