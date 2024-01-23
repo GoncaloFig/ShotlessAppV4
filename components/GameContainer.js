@@ -31,7 +31,7 @@ const GameContainer = () => {
                 alt='Shotless' 
                 width="350"
                 height="auto" 
-                sizes="350px"
+                sizes="(max-width: 320px) 280px, (max-width: 480px) 440px, 800px"
                 priority={true}/>
                 {/* <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="eager" priority/> */}
             </div>
