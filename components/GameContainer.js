@@ -13,7 +13,7 @@ export const metadata = {
     description: 'Generate a random person to pay the bill',
 }
 
-const GameContainer = () => {
+const GameContainer = ({ shotlessImageUrl }) => {
 
     const [goBtnVisible, setGoBtnVisible] = useState(true);
 
@@ -42,14 +42,14 @@ const GameContainer = () => {
     )
 }
 
-// export async function getServerSideProps() {
-//     const shotlessImageUrl = '/images/shotless.png';
+export async function getServerSideProps() {
+    const shotlessImageUrl = '/images/shotless.png';
   
-//     return {
-//         props: {
-//             shotlessImageUrl,
-//         },
-//     };
-// }
+    return {
+        props: {
+            shotlessImageUrl,
+        },
+    };
+}
 
 export default GameContainer
