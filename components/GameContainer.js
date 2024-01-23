@@ -4,6 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import GameBtnContainer from './GameBtnContainer'
 import titleImage from '../images/shotless.png'
+import titleImageSsr from '../public/shotless.png'
 import Image from 'next/image'
 
 
@@ -23,7 +24,7 @@ const GameContainer = () => {
             {/* <div className='shotlessTitleImg'/> */}
             <div className='shotlessTitleImg'>
                 {/* <img src='/_next/static/media/shotless.bc208cbe.png' alt="Shotless Logo"/> */}
-                <Image src={titleImage} alt='Home Page' width={350} height={60}/>
+                <Image src={titleImageSsr} alt='Home Page' width={350} height={60}/>
             </div>
             <GameBtnContainer goBtnVisible={goBtnVisible} setGoBtnVisible={setGoBtnVisible}/>
         </div>
