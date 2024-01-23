@@ -24,7 +24,7 @@ function Home() {
         <noscript>Who will pay the bill</noscript>
 
         {/* <link rel="icon" href="/shotlessIcon.ico" /> */}
-        <link rel="icon" href="/go.ico" />
+        <link rel="icon" href="/shotlessTargetIcon.ico" />
 
         <link rel="canonical" href="https://shotlessapp.com" />
 
