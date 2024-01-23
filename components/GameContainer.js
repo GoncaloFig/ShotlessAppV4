@@ -5,7 +5,7 @@ import React from 'react'
 import { useState } from 'react'
 import GameBtnContainer from './GameBtnContainer'
 import titleImage from '../images/shotless.png'
-import titleImageSsr from '/public/shotless.png'
+import titleImageSsr from '/public/shotlessLite.png'
 import Image from 'next/image'
 import dynamic from 'next/dynamic'
 

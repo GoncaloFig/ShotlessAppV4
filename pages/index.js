@@ -28,12 +28,6 @@ function Home() {
         <link rel="canonical" href="https://shotlessapp.com" />
 
         {/* PRELOADS */}
-        <link rel="preload" href="/public/shotless.png" as="image" />
-        <link rel="preload" href="/styles/App.css" as="style" />
-        <link rel="preload" href="/styles/CountDownContainer.scss" as="style" />
-        <link rel="preload" href="/styles/EditPlayersContainer.scss" as="style" />
-        <link rel="preload" href="/styles/PlayersContainer.scss" as="style" />
-        <link rel="preload" href="/styles/GameContainer.scss" as="style" />
 
         {/* GOOGLE ADSENSE CODE */}
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4294726482603280" crossorigin="anonymous"></script>
