@@ -1,4 +1,5 @@
 "use client"
+
 import React from 'react'
 // import GameBtnContainer from './GameBtnContainer'
 import { useState } from 'react'
@@ -27,9 +28,9 @@ const GameContainer = () => {
             <div className='shotlessTitleImg'>
                 <DynamicImage 
                 src={titleImageSsr} 
-                alt='Home Page' 
-                width={350} 
-                height={60} 
+                alt='Shotless' 
+                width="350"
+                height="auto" 
                 sizes="350px"
                 priority={true}/>
                 {/* <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="eager" priority/> */}
