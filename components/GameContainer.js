@@ -13,7 +13,7 @@ export const metadata = {
     description: 'Generate a random person to pay the bill',
 }
 
-const GameContainer = () => {
+const GameContainer = ({ shotlessImageUrl }) => {
 
     const [goBtnVisible, setGoBtnVisible] = useState(true);
 
