@@ -1,5 +1,5 @@
 //pages/index.js
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import Head from 'next/head';
 import App from '../components/App';
 

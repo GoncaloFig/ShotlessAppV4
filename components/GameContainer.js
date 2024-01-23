@@ -6,12 +6,14 @@ import GameBtnContainer from './GameBtnContainer'
 import titleImage from '../images/shotless.png'
 import titleImageSsr from '/public/shotless.png'
 import Image from 'next/image'
-
+import dynamic from 'next/dynamic'
 
 export const metadata = {
     title: 'Shotless',
     description: 'Generate a random person to pay the bill',
 }
+
+const DynamicImage = dynamic(() => import('next/image'))
 
 const GameContainer = () => {
 
@@ -23,7 +25,8 @@ const GameContainer = () => {
             {/* <h1 className="shotlessTitle">Shotless</h1> */}
             {/* <div className='shotlessTitleImg'/> */}
             <div className='shotlessTitleImg'>
-                <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="eager" priority/>
+                <DynamicImage src={titleImageSsr} alt='Home Page' width={350} height={60} loading="eager" priority/>
+                {/* <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="eager" priority/> */}
                 {/* <Image src="/static/media/shotless.png" alt='Home Page' width={350} height={60}/> */}
             </div>
             <GameBtnContainer goBtnVisible={goBtnVisible} setGoBtnVisible={setGoBtnVisible}/>

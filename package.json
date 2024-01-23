@@ -20,7 +20,9 @@
     "uuid": "^9.0.1"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^14.1.0",
     "eslint": "^8",
-    "eslint-config-next": "14.0.4"
+    "eslint-config-next": "14.0.4",
+    "webpack-bundle-analyzer": "^4.10.1"
   }
 }
