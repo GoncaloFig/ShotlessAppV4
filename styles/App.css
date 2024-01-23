@@ -6,13 +6,10 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
-    /* position: fixed;
-    bottom: 0px; */
-    /* min-height: 100vh; */
-
     position: fixed;
     inset: 0;
     overflow: auto;
+    width: 100%;
   }
   
   .App-logo {
