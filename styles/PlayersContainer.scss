@@ -81,7 +81,7 @@
 
     .playersListOverflow{
         background-color: transparent;
-        max-height: 100vh;
+        height: 90%;
         overflow-y: scroll;
         //height: 50vh;
         // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
@@ -135,7 +135,7 @@
         // flex-direction: column;
         //height: 40vh;
         overflow-y: scroll;
-        //height: 50vh;
+        height: 90%;
         // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
     }
 
@@ -163,7 +163,7 @@
         background-color: transparent;
         //height: 40vh;
         overflow-y: scroll;
-        //height: 50vh;
+        height: 90%;
         max-width: 100vw;
         // -webkit-mask-image: linear-gradient(180deg, #000 85%, transparent);
     }
