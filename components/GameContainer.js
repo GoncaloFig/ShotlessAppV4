@@ -23,7 +23,8 @@ const GameContainer = () => {
             {/* <h1 className="shotlessTitle">Shotless</h1> */}
             {/* <div className='shotlessTitleImg'/> */}
             <div className='shotlessTitleImg'>
-                <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="lazy"/>
+                <Image src={shotlessImageUrl} alt='Home Page' width={350} height={60} loading="lazy"/>
+                {/* <Image src={titleImageSsr} alt='Home Page' width={350} height={60} loading="lazy"/> */}
                 {/* <Image src="/static/media/shotless.png" alt='Home Page' width={350} height={60}/> */}
             </div>
             <GameBtnContainer goBtnVisible={goBtnVisible} setGoBtnVisible={setGoBtnVisible}/>
@@ -39,6 +40,16 @@ const GameContainer = () => {
         </div>
         </>
     )
+}
+
+export async function getServerSideProps() {
+    const shotlessImageUrl = '/images/shotless.png';
+  
+    return {
+        props: {
+            shotlessImageUrl,
+        },
+    };
 }
 
 export default GameContainer
